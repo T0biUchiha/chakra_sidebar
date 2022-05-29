@@ -1,0 +1,40 @@
+.App{
+  background-color: rgb(214 238 252 / 36%);
+}
+
+.sidebar{
+  width: 17%;
+  border-right: 1px solid rgb(214, 238, 252);
+  height: 764px;
+  background-color: white;
+  padding: 1% 1%;
+  font-family: monospace;
+}
+
+.sidebar div{
+  display: flex;
+  width: 80%;
+  /* border: 1px solid red; */
+  padding: 10px;
+  box-sizing: border-box;
+  align-items: center;
+  height: 50px;
+  margin: 5px;
+  font-family: sans-serif;
+  font-size: 17px;
+}
+
+.sidebar div:hover{
+  background-color: aqua;
+  border-radius: 12px;
+}
+
+.sidebar div span{
+  margin-left: 10px;
+}
+
+.sidebar h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px 0px 20px 20px;
+}
